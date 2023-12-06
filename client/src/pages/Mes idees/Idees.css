@@ -1,0 +1,393 @@
+.idee .top img{
+    width: 55px;
+    border-radius: 50%;
+    height: 57px;
+    margin-top: 1.6%;
+  
+  }
+
+  .mirindra{
+    margin-left: 65.2%;
+  }
+
+  .idee .top{
+    position: fixed;
+    margin-top: -30px;
+    left: 379px;
+    padding: 9px 14px;
+    align-items: center;
+    display: flex;
+    width: calc(100% - 408px);
+    justify-content: space-between;
+    background-color: var(--color-gray-400);
+    border-bottom: 0.5px solid rgb(212, 209, 209);
+    height: 7%;
+  }
+
+  .idee .top  .sidebar-toggle{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  .corps-idee{
+    margin-top: 4%;
+    margin-left: -51%;
+  }
+
+  .title-grand{
+    font-size: 30px;
+  }
+
+  .idee-1{
+    background-color: var(--color-whitesmoke-100);
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 35%;
+    margin-left: 47.5%;
+  }
+
+  .link{
+    text-decoration: none;
+    color: black;
+  }
+
+  .idee-1 .titleidee{
+    margin-left: -70%;
+  }
+
+  .idee-1 .idee-contain{
+    margin-left: -19%;
+  }
+
+  .idee-1 .idee-contain::before{
+    content: "";
+    position: absolute;
+    border-radius: 16px;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    top: 19.6%;
+    left: 21.2%;
+    background-color: rgb(210, 160, 12);
+  }
+
+  .idee-2{
+    background-color: var(--color-whitesmoke-100);
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 35%;
+    margin-left: 47.5%;
+  }
+
+  .idee-2 .titleidee{
+    margin-left: -82%;
+  }
+
+  .idee-2 .idee-contain{
+    margin-left: -19%;
+  }
+
+  .idee-2 .idee-contain::before{
+    content: "";
+    position: absolute;
+    border-radius: 16px;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    top: 33%;
+    left: 21.2%;
+    background-color: rgb(85, 210, 12);
+  }
+
+  .idee-3{
+    background-color: var(--color-whitesmoke-100);
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 35%;
+    margin-left: 47.5%;
+  }
+
+  .idee-3 .titleidee{
+    margin-left: -89.5%;
+  }
+
+  .idee-3 .idee-contain{
+    margin-left: -19%;
+  }
+
+  .idee-3 .idee-contain::before{
+    content: "";
+    position: absolute;
+    border-radius: 16px;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    top: 46.3%;
+    left: 21.2%;
+    background-color: rgb(12, 121, 210);
+  }
+
+  .idee-4{
+    background-color: var(--color-whitesmoke-100);
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 35%;
+    margin-left: 47.5%;
+  }
+
+  .idee-4 .titleidee{
+    margin-left: -89.5%;
+  }
+
+  .idee-4 .idee-contain{
+    margin-left: -19%;
+  }
+
+  .idee-4 .idee-contain::before{
+    content: "";
+    position: absolute;
+    border-radius: 16px;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    top: 59.7%;
+    left: 21.2%;
+    background-color: rgb(210, 12, 200);
+  }
+
+  .idee-5{
+    background-color: var(--color-whitesmoke-100);
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 35%;
+    margin-left: 47.5%;
+  }
+
+  .idee-5 .titleidee{
+    margin-left: -70%;
+  }
+
+  .idee-5 .idee-contain{
+    margin-left: -19%;
+  }
+
+  .idee-5 .idee-contain::before{
+    content: "";
+    position: absolute;
+    border-radius: 16px;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    top: 73.1%;
+    left: 21.2%;
+    background-color: rgb(210, 42, 12);
+  }
+
+  .idee-6{
+    background-color: var(--color-whitesmoke-100);
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 35%;
+    margin-left: 47.5%;
+  }
+
+  .idee-6 .titleidee{
+    margin-left: -82%;
+  }
+
+  .idee-6 .idee-contain{
+    margin-left: -19%;
+  }
+
+  .idee-6 .idee-contain::before{
+    content: "";
+    position: absolute;
+    border-radius: 16px;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    top: 86.4%;
+    left: 21.2%;
+    background-color: rgb(12, 210, 210);
+  }
+
+  .calendrierr{
+    margin-left: 78%;
+    margin-top: -40%;
+  }
+  
+  .calendrierss{
+    background-color: var(--color-whitesmoke-100);
+    border: none;
+    width: 95%;
+    border-radius: 12px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3)
+  }
+  
+  .calendrierss .react-calendar__month-view__weekdays{
+    background-color: var(--color-whitesmoke-100);
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+  }
+  
+  .calendrierss .react-calendar__month-view__days__day{
+    background-color: var(--color-whitesmoke-100);
+    color: rgb(0, 0, 0);
+    padding: 20px 25px;
+    border: none;
+    border-radius: 12px;
+  }
+  
+  .calendrierss .react-calendar__navigation button{
+    border: none;
+    background-color: var(--color-whitesmoke-100);
+  }
+  
+  .calendrierss .react-calendar__navigation span{
+    font-size: 20px;
+  }
+
+  .notifications{
+    margin-top: 30px;
+  }
+  
+  .notifications .texts{
+    color: var(--color-black);
+    margin-left: 63%;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .notifications-data{
+    margin-top: 20px;
+    margin-left: 78%;
+  }
+  
+  .notificationn-1{
+    background-color: var(--color-whitesmoke-100);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 55px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 71%;
+  }
+  
+  .notifications-data .notificationn-1::before{
+    content: "";
+    position: absolute;
+    left: 78.5%;
+    top: 58%;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    background-color: rgb(210, 160, 12);
+  }
+  
+  .notificationn-2{
+    background-color: var(--color-whitesmoke-100);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 55px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 71%;
+  }
+  
+  .notifications-data .notificationn-2::before{
+    content: "";
+    position: absolute;
+    left: 78.5%;
+    top: 66%;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    background-color: rgb(94, 194, 52);
+  }
+  
+  .notificationn-3{
+    background-color: var(--color-whitesmoke-100);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 55px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 71%;
+  }
+  
+  .notifications-data .notificationn-3::before{
+    content: "";
+    position: absolute;
+    left: 78.5%;
+    top: 73.5%;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    background-color: rgb(4, 117, 247);
+  }
+  
+  .notificationn-4{
+    background-color: var(--color-whitesmoke-100);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 55px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 71%;
+  }
+  
+  .notifications-data .notificationn-4::before{
+    content: "";
+    position: absolute;
+    left: 78.5%;
+    top: 81.5%;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    background-color: rgb(219, 4, 247);
+  }
+  
+  .notificationn-5{
+    background-color: var(--color-whitesmoke-100);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 55px;
+    box-shadow: -2px 10px 30px rgba(0, 0, 0 , 0.3);
+    font-size: 18px;
+    width: 71%;
+  }
+  
+  .notifications-data .notificationn-5::before{
+    content: "";
+    position: absolute;
+    left: 78.5%;
+    top: 89%;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+    background-color: rgb(247, 4, 4);
+  }
+
+  
+

@@ -1,0 +1,745 @@
+.s_inscrire{
+    margin-top: 8%;
+}
+
+.nom{
+    margin-left: 40%;
+}
+
+.nomm{
+    width: 50%;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.prenom{
+    margin-left: 39%;
+}
+
+.prenomm{
+    width: 49%;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.users{
+    margin-left: 37.5%;
+}
+
+.mail{
+    width: 48%;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.motdepasses{
+    margin-left: 37.5%;
+}
+
+.mdpp{
+    width: 48%;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.elements{
+    margin-left: -300%;
+    margin-top: -90%;
+    width: 150%;
+}
+
+.inscription{
+    background-color: #385997;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: -5%;
+    font-size: 25px;
+    width: 30%;
+    transition: 300ms all ease;
+}
+
+.requests{
+    background-color: #306447;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: -5%;
+    font-size: 25px;
+    width: 30%;
+    outline: none;
+    transition: 300ms all ease;
+}
+
+.requests:hover{
+    background-color: #1a3526;
+  }
+
+/* .form {
+    margin-left: 84.5%;
+    border: none; 
+    background-color: rgba(139, 32, 32, 0.2); 
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); 
+    width: 50%;
+    height: 100%;
+    margin-top: 100px;
+}  */
+
+
+.logos-haute-matsiatra{
+    margin-left: 44%;
+    object-fit: cover;
+    position: absolute;
+    top: -0.5%;
+    width: 6%;
+}
+
+.texts-wrapper-4{
+    margin-top: -34%;
+    margin-left: 77%;
+}
+
+
+
+
+
+/*---------------------- MEDIA QUERIES WIDTH 2000PX --------------------- */
+
+@media screen and (max-width: 2000px){
+    .accueils .div {
+      height: 1117px;
+      position: fixed;
+      width: 2100px;
+      background-color: rgb(43, 0, 235);
+    } 
+
+    .logos-haute-matsiatra{
+        margin-left: 38%;
+        object-fit: cover;
+        position: absolute;
+        top: -0.5%;
+        width: 6%;
+    }
+    
+    .texts-wrapper-4{
+        margin-top: -32.5%;
+        margin-left: 65%;
+    }
+}
+
+
+/*---------------------- MEDIA QUERIES WIDTH 1800PX --------------------- */
+
+@media screen and (max-width: 1800px){
+    .accueils .div {
+      height: 1117px;
+      position: fixed;
+      width: 2100px;
+      background-color: rgb(0, 216, 235);
+    } 
+
+    .s_inscrire{
+        margin-top: 8%;
+        margin-left: -10%;
+    }
+    
+    .nom{
+        margin-left: 35%;
+    }
+    
+    .nomm{
+        width: 50%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .prenom{
+        margin-left: 34.2%;
+    }
+    
+    .prenomm{
+        width: 49.4%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .users{
+        margin-left: 32.5%;
+    }
+    
+    .mail{
+        width: 48%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .motdepasses{
+        margin-left: 32.5%;
+    }
+    
+    .mdpp{
+        width: 48%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .inscription{
+        background-color: #385997;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        transition: 300ms all ease;
+    }
+    
+    .requests{
+        background-color: #306447;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        outline: none;
+        transition: 300ms all ease;
+    }
+    
+    .requests:hover{
+        background-color: #1a3526;
+      }
+
+    .logos-haute-matsiatra{
+        margin-left: 25%;
+        object-fit: cover;
+        position: absolute;
+        top: -0.5%;
+        width: 6%;
+    }
+    
+    .texts-wrapper-4{
+        margin-top: -32.5%;
+        margin-left: 40%;
+    }
+}
+
+
+/*---------------------- MEDIA QUERIES WIDTH 1600PX --------------------- */
+
+@media screen and (max-width: 1600px){
+    .accueils .div {
+      height: 1117px;
+      position: fixed;
+      width: 2100px;
+      background-color: rgb(235, 0, 176);
+    } 
+
+    .s_inscrire{
+        margin-top: 8%;
+        margin-left: -10%;
+    }
+    
+    .nom{
+        margin-left: 35%;
+    }
+    
+    .nomm{
+        width: 50%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .prenom{
+        margin-left: 34.2%;
+    }
+    
+    .prenomm{
+        width: 49.4%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .users{
+        margin-left: 32.5%;
+    }
+    
+    .mail{
+        width: 48%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .motdepasses{
+        margin-left: 32.5%;
+    }
+    
+    .mdpp{
+        width: 48%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .inscription{
+        background-color: #385997;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        transition: 300ms all ease;
+    }
+    
+    .requests{
+        background-color: #306447;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        outline: none;
+        transition: 300ms all ease;
+    }
+    
+    .requests:hover{
+        background-color: #1a3526;
+      }
+
+    .logos-haute-matsiatra{
+        margin-left: 20%;
+        object-fit: cover;
+        position: absolute;
+        top: -0.5%;
+        width: 6%;
+    }
+    
+    .texts-wrapper-4{
+        margin-top: -34%;
+        margin-left: 30%;
+    }
+
+    form{
+        margin-left: -10%;
+    }
+}
+
+
+
+/*---------------------- MEDIA QUERIES WIDTH 1400PX --------------------- */
+
+@media screen and (max-width: 1400px){
+    .accueils .div {
+      height: 1117px;
+      position: fixed;
+      width: 2100px;
+      background-color: rgb(141, 79, 79);
+    } 
+
+    .s_inscrire{
+        margin-top: 8%;
+        margin-left: -10%;
+    }
+    
+    .nom{
+        margin-left: 35%;
+    }
+    
+    .nomm{
+        width: 50%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .prenom{
+        margin-left: 34.2%;
+    }
+    
+    .prenomm{
+        width: 49.4%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .users{
+        margin-left: 32.5%;
+    }
+    
+    .mail{
+        width: 48%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .motdepasses{
+        margin-left: 32.5%;
+    }
+    
+    .mdpp{
+        width: 48%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .inscription{
+        background-color: #385997;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        transition: 300ms all ease;
+    }
+    
+    .requests{
+        background-color: #306447;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        outline: none;
+        transition: 300ms all ease;
+    }
+    
+    .requests:hover{
+        background-color: #1a3526;
+      }
+
+    .logos-haute-matsiatra{
+        margin-left: 9%;
+        object-fit: cover;
+        position: absolute;
+        top: -0.5%;
+        width: 6%;
+    }
+    
+    .texts-wrapper-4{
+        margin-top: -34%;
+        margin-left: 8%;
+    }
+
+    form{
+        margin-left: -17%;
+    }
+}
+
+
+/*---------------------- MEDIA QUERIES WIDTH 1200PX --------------------- */
+
+@media screen and (max-width: 1200px){
+    .accueils .div {
+      height: 1117px;
+      position: fixed;
+      width: 2100px;
+      background-color: rgb(152, 255, 166);
+    } 
+
+    .s_inscrire{
+        margin-top: 8%;
+        margin-left: -10%;
+    }
+    
+    .nom{
+        margin-left: 35%;
+    }
+    
+    .nomm{
+        width: 50%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .prenom{
+        margin-left: 34.2%;
+    }
+    
+    .prenomm{
+        width: 49.4%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .users{
+        margin-left: 32.8%;
+    }
+    
+    .mail{
+        width: 49%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .motdepasses{
+        margin-left: 32.8%;
+    }
+    
+    .mdpp{
+        width: 49%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .inscription{
+        background-color: #385997;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        transition: 300ms all ease;
+    }
+    
+    .requests{
+        background-color: #306447;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 30%;
+        outline: none;
+        transition: 300ms all ease;
+    }
+    
+    .requests:hover{
+        background-color: #1a3526;
+      }
+
+    .logos-haute-matsiatra{
+        margin-left: 0%;
+        object-fit: cover;
+        position: absolute;
+        top: -0.5%;
+        width: 6%;
+    }
+    
+    .texts-wrapper-4{
+        margin-top: -35%;
+        margin-left: -12%;
+    }
+
+    form{
+        margin-left: -23%;
+    }
+}
+
+
+/*---------------------- MEDIA QUERIES WIDTH 1000PX --------------------- */
+
+@media screen and (max-width: 1000px){
+    .accueils .div {
+      height: 1117px;
+      position: fixed;
+      width: 2100px;
+      background-color: rgb(215, 209, 39);
+    } 
+
+    .s_inscrire{
+        margin-top: 8%;
+        margin-left: -13%;
+    }
+    
+    .nom{
+        margin-left: 34.8%;
+    }
+    
+    .nomm{
+        width: 40%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .prenom{
+        margin-left: 34.2%;
+    }
+    
+    .prenomm{
+        width: 40%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .users{
+        margin-left: 32.8%;
+    }
+    
+    .mail{
+        width: 39%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .motdepasses{
+        margin-left: 32.8%;
+    }
+    
+    .mdpp{
+        width: 39%;
+        height: 50px;
+        border-radius: 12px;
+    }
+    
+    .inscription{
+        background-color: #385997;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 20%;
+        transition: 300ms all ease;
+    }
+    
+    .requests{
+        background-color: #306447;
+        color: white;
+        padding: 18px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: -14.5%;
+        font-size: 25px;
+        width: 20%;
+        outline: none;
+        transition: 300ms all ease;
+    }
+    
+    .requests:hover{
+        background-color: #1a3526;
+      }
+
+    .logos-haute-matsiatra{
+        margin-left: -9%;
+        object-fit: cover;
+        position: absolute;
+        top: -0.5%;
+        width: 6%;
+    }
+    
+    .texts-wrapper-4{
+        margin-top: -35%;
+        margin-left: -30%;
+    }
+
+    form{
+        margin-left: -30%;
+    }
+}
+
+
+/*---------------------- MEDIA QUERIES HEIGHT 1000PX --------------------- */
+@media screen and (max-height: 800px){
+
+    .accueils .div{
+        background-color: #7ea8f5;
+    }
+
+    .inscription{
+        margin-top: 15px;
+    }
+
+    .texts-wrapper-4{
+        margin-top: -28%;
+    }
+
+    form{
+        margin-top: -6%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .accueils .div{
+        background-color: chocolate;
+    }
+
+    .nom{
+        margin-left: 35%;
+    }
+    
+    .nomm{
+        width: 12%;
+        padding: 1px 2px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .prenom{
+        margin-left: 34.6%;
+    }
+
+    .prenomm{
+        width: 12%;
+        padding: 1px 2px;
+        height: 40px;
+        border-radius: 5px;
+
+    }
+
+    .users{
+        margin-left: 34.9%;
+    }
+
+    .mail{
+        width: 12%;
+        padding: 1px 2px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .motdepasses{
+        
+    }
+
+    form{
+        margin-left: -60%;
+    }
+}
+

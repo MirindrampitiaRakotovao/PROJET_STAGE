@@ -1,0 +1,1152 @@
+  .accueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(226, 220, 220);
+  } 
+  
+  .accueil .overlap {
+    height: 1093px;
+    left: 0;
+    position: absolute;
+    top: 24px;
+    width: 1728px;
+  }
+  
+  .accueil .text-wrapper {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 71%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    margin-top: 35%;
+    width: 50%;
+    margin-left: 87%;
+  }
+  
+  .accueil .group {
+    height: 126px;
+    left: 43px;
+    position: absolute;
+    margin-top: 15%;
+    width: 700px;
+  }
+  
+  .accueil .text-wrapper-2 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 400;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .accueil .rectangle {
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 3px;
+    box-shadow: inset 76px 77px 9px #00000040;
+    height: 56px;
+    left: -2px;
+    position: absolute;
+    margin-top: 7%;
+    width: 702px;
+  }
+  
+  .accueil .rectangle-wrapper {
+    height: 52px;
+    left: 43px;
+    position: absolute;
+    margin-top: 25%;
+    width: 698px;
+  }
+  
+  .accueil .rectangle-2 {
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 5px;
+    box-shadow: inset 76px 77px 9px #00000040;
+    height: 56px;
+    left: -2px;
+    position: relative;
+    width: 702px;
+  }
+  
+  .accueil .overlap-group-wrapper {
+    height: 67px;
+    left: 43px;
+    position: absolute;
+    margin-top: 30%;
+    width: 366px;
+  }
+  
+  .accueil .overlap-group {
+    background-color: #c19e8e;
+    border-radius: 9px;
+    height: 67px;
+    position: relative;
+    width: 364px;
+  }
+  
+  .accueil .text-wrapper-3 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    left: 65px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .accueil .vector {
+    background-blend-mode: multiply;
+    width: 170%;
+    margin-left: -90%;
+    position: absolute;
+    margin-top: 10%;
+  }
+  
+  .accueil .element {
+    /* height: 946px; */
+    left: 10%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -32%;
+    /* width: 1225px; */
+    width: 80%;
+  }
+  
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 115%;
+    position: absolute;
+    margin-top: -44%;
+    width: 423px;
+  }
+  
+  .accueil .overlap-2 {
+    height: 126px;
+    position: relative;
+    width: 421px;
+  }
+  
+  .accueil .text-wrapper-4 {
+    color: #202020;
+    font-size: 20px;
+    font-weight: 400;
+    left: 8%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 43px;
+    width: 311px;
+  }
+  
+  .accueil .logo-haute-matsiatra {
+    left: 293px;
+    object-fit: cover;
+    position: absolute;
+    top: -2%;
+    width: 25%;
+  }
+  
+  .accueil .text-wrapper-5 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    margin-top: -7%;
+  }
+
+  .mdp{
+    gap: .5rem;
+    padding: 1.2rem;
+    background: var(--inputColor);
+    border-radius: 10px;
+    outline: none;
+    width: 600px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 20px;
+    color: #313131;
+  }
+
+  .email{
+    gap: .5rem;
+    padding: 1.2rem;
+    background: var(--inputColor);
+    border-radius: 10px;
+    width: 600px;
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+    margin-top: -100%;
+    font-size: 20px;
+    color: #1b1b1b;
+  }
+
+input::placeholder{
+    font-size: 17px;
+}
+
+input::placeholder{
+  color: rgb(49, 49, 49);
+}
+
+  .connexion {
+    background-color: #385997;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: -2%;
+    font-size: 25px;
+    width: 95%;
+    transition: 300ms all ease;
+ }
+ .request {
+  background-color: #306447;
+  color: white;
+  padding: 18px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: -2%;
+  font-size: 25px;
+  width: 95%;
+  outline: none;
+  transition: 300ms all ease;
+}
+
+.request:hover{
+  background-color: #1a3526;
+}
+
+ input[type="button"] {
+    width: 10%;
+    background-color: #40453e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ input[type="submit"]:hover {
+  background-color: #1f2c44;
+ }
+
+ .form {
+  margin-left: 84.5%;
+  border: none; /* Supprimez la bordure existante */
+  background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+  padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+  border-radius: 10px; /* Ajoutez une bordure arrondie */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+  width: 50%;
+  height: 55%;
+  margin-top: 160px;
+}
+
+/* 
+ label{
+  margin-left: -30%;
+  margin-top: -25%;
+  font-size: 30px;
+  padding-bottom: 50px;
+ } */
+
+ /* .Mdp{
+  margin-left: -30.2%;
+ } */
+
+ .accueil .overlap::before {
+  content: "";
+  background-image: linear-gradient(rgba(146, 140, 140, 0.2), rgba(136, 130, 130, 0.3)), url(../pages/img/moi.JPG);
+  background-position: 50% 50%;
+  background-size: cover;
+  filter: blur(5px); /* Adjust the blur intensity as needed */
+  position: absolute;
+  width: 0%;
+  z-index: -1;
+}
+
+.accueil .overlap {
+  height: 1000px;
+  position: relative;
+  z-index: 1; /* Ensure content is in front of the background */
+  margin-left: -15%;
+}
+
+.contenu{
+  margin-top: -10%;
+  margin-left: 50%;
+} 
+
+label {
+ margin-left: -80%;
+ margin-top: 105%;
+}
+/* Arrière-plan de type "glace" pour le formulaire */
+
+.user{
+  margin-left: 43%;
+  margin-top: 10%;
+}
+
+.motdepasse{
+  margin-left: 43%;
+  margin-top: 0%;
+}
+
+h1{
+  font-size: 50px;
+  margin-top: -0.5%;
+}
+
+
+
+/*---------------------- MEDIA QUERIES WIDTH 2000PX --------------------- */
+
+@media screen and (max-width: 2000px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(235, 0, 0);
+  } 
+
+  .form {
+    margin-left: 80.5%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 50%;
+    height: 55%;
+    margin-top: 160px;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 14%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -32%;
+    /* width: 1225px; */
+    width: 70%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 111%;
+    position: absolute;
+    margin-top: -44%;
+    width: 423px;
+  }
+
+  .accueil .text-wrapper {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 71%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    margin-top: 35%;
+    width: 50%;
+    margin-left: 83%;
+  }
+
+}
+
+/*---------------------- MEDIA QUERIES HEIGHT 2000PX --------------------- */
+
+@media screen and (max-height: 800px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(0, 227, 235);
+  } 
+
+  .form {
+    margin-left: 80.5%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 50%;
+    height: 55%;
+    margin-top: 95px;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 14%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -34%;
+    /* width: 1225px; */
+    width: 70%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 111%;
+    position: absolute;
+    margin-top: -41%;
+    width: 423px;
+  }
+}
+/*===================================================================*/
+
+/*---------------------- MEDIA QUERIES WIDTH 1900PX --------------------- */
+@media screen and (max-width: 1900px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(235, 180, 0);
+  } 
+
+  .form {
+    margin-left: 77%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 50%;
+    height: 55%;
+    margin-top: 160px;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 17%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -32%;
+    /* width: 1225px; */
+    width: 65%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 107.5%;
+    position: absolute;
+    margin-top: -44%;
+    width: 423px;
+  }
+
+  .accueil .text-wrapper {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 71%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    margin-top: 35%;
+    width: 50%;
+    margin-left: 79%;
+  }
+
+}
+
+/*---------------------- MEDIA QUERIES HEIGHT 1900PX --------------------- */
+@media screen and (max-height: 780px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(78, 0, 235);
+  } 
+
+  .form {
+    margin-left: 80.5%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 50%;
+    height: 55%;
+    margin-top: 95px;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 14%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -34%;
+    /* width: 1225px; */
+    width: 70%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 111%;
+    position: absolute;
+    margin-top: -41%;
+    width: 423px;
+  }
+}
+
+
+/*===================================================================*/
+
+/*---------------------- MEDIA QUERIES WIDTH 1800PX --------------------- */
+@media screen and (max-width: 1800px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(118, 115, 73);
+  } 
+
+  .form {
+    margin-left: 77.5%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 45%;
+    height: 55%;
+    margin-top: 100px;
+  }
+
+  .email{
+    gap: .5rem;
+    padding: 1.2rem;
+    background: var(--inputColor);
+    border-radius: 10px;
+    width: 400px;
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+    margin-top: -100%;
+    font-size: 20px;
+    color: #1b1b1b;
+  }
+
+  .mdp{
+    gap: .5rem;
+    padding: 1.2rem;
+    background: var(--inputColor);
+    border-radius: 10px;
+    outline: none;
+    width: 402px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 20px;
+    color: #313131;
+  }
+
+  .user{
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  
+  .motdepasse{
+    margin-left: 40.5%;
+    margin-top: 0%;
+  }
+
+  .connexion {
+    background-color: #385997;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: -7%;
+    font-size: 25px;
+    width: 80%;
+    transition: 300ms all ease;
+ }
+  .request {
+    background-color: #306447;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: -7%;
+    font-size: 25px;
+    width: 80%;
+    outline: none;
+    transition: 300ms all ease;
+  }
+
+  .request:hover{
+    background-color: #1a3526;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 21%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -28%;
+    /* width: 1225px; */
+    width: 63%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 103%;
+    position: absolute;
+    margin-top: -41%;
+    width: 430px;
+  }
+
+  .accueil .text-wrapper {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 71%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    margin-top: 35%;
+    width: 50%;
+    margin-left: 77%;
+  }
+
+}
+
+/*---------------------- MEDIA QUERIES HEIGHT 1800PX --------------------- */
+@media screen and (max-height: 600px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(134, 124, 244);
+  } 
+
+  .form {
+    margin-left: 77.5%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 45%;
+    height: 50%;
+    margin-top: 80px;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 20%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -30%;
+    /* width: 1225px; */
+    width: 65%;
+  }
+
+  .accueil .logo-haute-matsiatra{
+    width: 20%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 104%;
+    position: absolute;
+    margin-top: -39.8%;
+    width: 430px;
+  }
+}
+
+
+@media screen and (max-width: 1700px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(137, 235, 0);
+  } 
+}
+
+
+/*---------------------- MEDIA QUERIES WIDTH 1600PX --------------------- */
+@media screen and (max-width: 1600px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(115, 69, 113);
+  } 
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 14%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -34%;
+    /* width: 1225px; */
+    width: 70%;
+    display: none;
+  }
+
+  .form {
+    margin-left: 53.5%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 50%;
+    height: 60%;
+    margin-top: 95px;
+  }
+
+  h1{
+    margin-top: 5%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 84%;
+    position: absolute;
+    margin-top: -44%;
+    width: 423px;
+  }
+
+  .accueil .text-wrapper {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 71%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    margin-top: 40%;
+    width: 50%;
+    margin-left: 55%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1500px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(0, 106, 235);
+  } 
+}
+
+@media screen and (max-width: 1300px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(219, 0, 235);
+  } 
+}
+
+@media screen and (max-width: 1100px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(0, 235, 200);
+  } 
+}
+
+
+/*---------------------- MEDIA QUERIES WIDTH 1600PX --------------------- */
+@media screen and (max-width: 900px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(152, 159, 255);
+  } 
+
+  .form {
+    margin-left: 57.5%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 40%;
+    height: 60%;
+    margin-top: 95px;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 78%;
+    position: absolute;
+    margin-top: -44%;
+    width: 423px;
+  }
+
+  .accueil .text-wrapper {
+    color: #2b2b2b;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 71%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    margin-top: 40%;
+    width: 50%;
+    margin-left: 53%;
+  }
+
+  .connexion {
+    background-color: #385997;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-left: -5%;
+    font-size: 25px;
+    width: 80%;
+    transition: 300ms all ease;
+ }
+  .request {
+    background-color: #306447;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: -5%;
+    font-size: 25px;
+    width: 80%;
+    outline: none;
+    transition: 300ms all ease;
+  }
+
+  .request:hover{
+    background-color: #1a3526;
+  }
+
+}
+
+
+
+@media screen and (max-width: 700px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(200, 135, 224);
+  } 
+
+  .form {
+    margin-left: 62.7%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 30%;
+    height: 60%;
+    margin-top: 95px;
+  }
+
+  .email{
+    gap: .5rem;
+    padding: 1.2rem;
+    background: var(--inputColor);
+    border-radius: 10px;
+    width: 300px;
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+    margin-top: -100%;
+    font-size: 20px;
+    color: #1b1b1b;
+  }
+
+  .mdp{
+    gap: .5rem;
+    padding: 1.2rem;
+    background: var(--inputColor);
+    border-radius: 10px;
+    outline: none;
+    width: 300px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 20px;
+    color: #313131;
+  }
+
+  .user{
+    margin-left: 42%;
+    margin-top: 15%;
+  }
+  
+  .motdepasse{
+    margin-left: 42%;
+    margin-top: 0%;
+  }
+
+  .connexion {
+    background-color: #385997;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+    font-size: 25px;
+    width: 80%;
+    transition: 300ms all ease;
+ }
+  .request {
+    background-color: #306447;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    width: 80%;
+    outline: none;
+    transition: 300ms all ease;
+  }
+
+  .request:hover{
+    background-color: #1a3526;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 21%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -28%;
+    /* width: 1225px; */
+    width: 63%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 103%;
+    position: absolute;
+    margin-top: -41%;
+    width: 430px;
+  }
+
+  .accueil .text-wrapper {
+    display: block;
+  }
+
+  h1{
+    margin-left: -28%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(167, 166, 166);
+  } 
+
+  .form {
+    margin-left: 70.6%;
+    border: none; /* Supprimez la bordure existante */
+    background-color: rgba(255, 255, 255, 0.2); /* Utilisez une couleur de fond légèrement transparente */
+    padding: 20px ; /* Ajoutez un espace de remplissage pour l'apparence de la glace */
+    border-radius: 10px; /* Ajoutez une bordure arrondie */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Ajoutez une ombre légère */
+    width: 15%;
+    height: 40%;
+    margin-top: 100px;
+  }
+
+  .IdUser{
+    display: none;
+  }
+
+  .Mdp{
+    display: none;
+  }
+
+  .email{
+    gap: .5rem;
+    padding: 15px 20px;
+    background: var(--inputColor);
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid rgb(204, 204, 204);
+    outline: none;
+    margin-top: 10%;
+    font-size: 15px;
+    color: #1b1b1b;
+    margin-left: -72%;
+  }
+
+  .mdp{
+    gap: .5rem;
+    padding: 15px 20px;
+    background: var(--inputColor);
+    border-radius: 10px;
+    outline: none;
+    width: 200px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 20px;
+    color: #313131;
+    margin-left: -72%;
+  }
+
+  .user{
+    margin-left: 42%;
+    margin-top: 15%;
+  }
+  
+  .motdepasse{
+    margin-left: 42%;
+    margin-top: 0%;
+  }
+
+  .connexion {
+    background-color: #385997;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5%;
+    font-size: 20px;
+    width: 80%;
+    transition: 300ms all ease;
+ }
+  .request {
+    background-color: #306447;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 80%;
+    outline: none;
+    transition: 300ms all ease;
+  }
+
+  .request:hover{
+    background-color: #1a3526;
+  }
+
+  .accueil .element {
+    /* height: 946px; */
+    left: 21%;
+    object-fit: cover;
+    position: absolute;
+    margin-top: -28%;
+    /* width: 1225px; */
+    width: 63%;
+  }
+
+  .accueil .overlap-wrapper {
+    height: 126px;
+    margin-left: 66%;
+    position: absolute;
+    margin-top: -32%;
+    width: 430px;
+  }
+
+  .accueil .text-wrapper {
+    display: block;
+    font-size: 21px;
+    margin-left: 54%;
+    margin-top: 28%;
+  }
+
+  h1{
+    margin-left: 5%;
+    font-size: 28px;
+  }
+
+  .accueil .logo-haute-matsiatra {
+    left: 310px;
+    object-fit: cover;
+    position: absolute;
+    top: 3%;
+    width: 20%;
+  }
+
+  .accueil .text-wrapper-4 {
+    color: #202020;
+    font-size: 18px;
+    font-weight: 400;
+    left: 8%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 43px;
+    width: 311px;
+  }
+}
+
+@media screen and (max-width: 300px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(255, 140, 140);
+  } 
+}
+
+@media screen and (max-width: 100px){
+  .accueil .div {
+    height: 1117px;
+    position: fixed;
+    width: 2100px;
+    background-color: rgb(50, 43, 51);
+  } 
+}
+
+
+
+
+
+
+
+
+
+  
